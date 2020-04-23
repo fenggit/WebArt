@@ -1,5 +1,4 @@
-# WebArt
-Web前端学习
+# Web前端学习
 
 ### 参考资料
 - 前往👉 [MDN学习前端](https://developer.mozilla.org/zh-CN/docs/Learn)
