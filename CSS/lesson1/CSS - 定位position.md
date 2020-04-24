@@ -6,7 +6,7 @@
 - 浮动
 
 ### 标准流
-[标准流](HTML%20-%20布局：标准流.html)
+[标准流](HTML - 布局：标准流.html)
 
 ### 定位：position可选参数
 - static：默认值，按照标准流布局
@@ -17,12 +17,12 @@
 - inherit：继承，继承父元素的定位属性
 
 源代码演示：
-- [relative](HTML%20-%20布局1：定位relative.html)
-- [absolute](HTML%20-%20布局2：定位absolute.html)
-- [absolute](HTML%20-%20布局2：定位absolute2.html) ==>如果有div包裹，则父类也需要设置，否则子div不起作用
+- [relative](HTML - 布局1：定位relative.html)
+- [absolute](HTML - 布局2：定位absolute.html)
+- [absolute](HTML - 布局2：定位absolute2.html) ==>如果有div包裹，则父类也需要设置，否则子div不起作用
  
-- [fixed](HTML%20-%20布局3：定位fixed.html)==>常用登录弹窗/广告
-- [fixed](HTML%20-%20布局3：定位fixed2.html) ==> 子div是fix则不受父div限制，不受制于父元素
+- [fixed](HTML - 布局3：定位fixed.html)==>常用登录弹窗/广告
+- [fixed](HTML - 布局3：定位fixed2.html) ==> 子div是fix则不受父div限制，不受制于父元素
  
  ### 浮动
  
