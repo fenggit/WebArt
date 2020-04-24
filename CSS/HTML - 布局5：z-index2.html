@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>定位 - absolute</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        html, body {
+            width: 100%;
+            height: 100%;
+        }
+
+        body {
+            background: antiquewhite;
+        }
+
+        .div2 {
+            background: blue;
+            width: 300px;
+            height: 150px;
+            position: fixed;
+            left: 50%;
+            top: 50%;
+            margin-left: -150px;
+            margin-top: -75px;
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="div2">
+    user:<input type="text"><br>
+    pwd:<input type="text">
+</div>
+</body>
+</html>

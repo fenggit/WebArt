@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>定位 - absolute</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background: antiquewhite;
+        }
+
+        .div1 {
+            background: red;
+            width: 100px;
+            height: 100px;
+            position: relative;
+            /*设置在div2上面*/
+            z-index: 1;
+        }
+
+        .div2 {
+            background: blue;
+            width: 100px;
+            height: 100px;
+            position: relative;
+            left: 0;
+            top: -50px;
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="div1"></div>
+<div class="div2"></div>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>定位 - absolute</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            height: 3000px;
+            background: antiquewhite;
+        }
+
+        .div1 {
+            background: red;
+            width: 100px;
+            height: 100px;
+        }
+
+        .div2 {
+            background: blue;
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            left: 50px;
+            top: 50px;
+        }
+
+        /*以屏幕四周为基准*/
+        .div3 {
+            background: green;
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            right: 50px;
+            bottom: 50px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="div1"></div>
+<div class="div2"></div>
+<div class="div3"></div>
+</body>
+</html>
